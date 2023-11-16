@@ -176,29 +176,91 @@ display:none}
 	.no-print{display:block}
 	a.no-print img{height:100%}
 	#printer {position:absolute;/*right:*/left:-27cm;top:-13cm;height:35cm;transform:rotate(-41deg);}
-#book {
-    position:absolute;
-    right:-9cm;
-    top:-5cm;
-    height:18cm;
-    transform:rotate(-20deg);
-	box-shadow:	1px 1px 1px rgba(0,0,0,.5),	2px 2px 1px rgba(200,200,200,.5),
-				3px 3px 1px rgba(0,0,0,.5),	4px 4px 1px rgba(200,200,200,.5),
-				5px 5px 1px rgba(0,0,0,.5),	6px 6px 1px rgba(200,200,200,.5),
-				7px 7px 1px rgba(0,0,0,.5),	8px 8px 1px rgba(200,200,200,.5),
-				9px 9px 1px rgba(0,0,0,.5),	10px 10px 1px rgba(200,200,200,.5),
-				11px 11px 1px rgba(0,0,0,.5),12px 12px 1px rgba(200,200,200,.5),
-				13px 13px 1px rgba(0,0,0,.5),14px 14px 1px rgba(200,200,200,.5),
-				15px 15px 1px rgba(0,0,0,.5),16px 16px 1px rgba(200,200,200,.5),
-				17px 17px 50px black
-}
-#phone {
-    position: absolute;
-    right: 3cm;
-    top: 13cm;
-    height: 16cm;
-    transform: rotate(-9deg);
-    filter: drop-shadow(2px 2px 6px black);
-}
+	#book {
+		position:absolute;
+		right:-9cm;
+		top:-5cm;
+		height:18cm;
+		transform:rotate(-20deg);
+		box-shadow:	1px 1px 1px rgba(0,0,0,.5),	2px 2px 1px rgba(200,200,200,.5),
+					3px 3px 1px rgba(0,0,0,.5),	4px 4px 1px rgba(200,200,200,.5),
+					5px 5px 1px rgba(0,0,0,.5),	6px 6px 1px rgba(200,200,200,.5),
+					7px 7px 1px rgba(0,0,0,.5),	8px 8px 1px rgba(200,200,200,.5),
+					9px 9px 1px rgba(0,0,0,.5),	10px 10px 1px rgba(200,200,200,.5),
+					11px 11px 1px rgba(0,0,0,.5),12px 12px 1px rgba(200,200,200,.5),
+					13px 13px 1px rgba(0,0,0,.5),14px 14px 1px rgba(200,200,200,.5),
+					15px 15px 1px rgba(0,0,0,.5),16px 16px 1px rgba(200,200,200,.5),
+					17px 17px 50px black
+	}
+	#phone {
+		position: absolute;
+		right: 3cm;
+		top: 13cm;
+		height: 16cm;
+		width: 8cm;
+		transform: rotate(-6deg);
+		/*box-sizing: border-box;*/
+		background-color: black;
+		box-shadow: 1px 1px 1px 4px rgba(0,0,0,.4), 0 0 3px 4px grey, 0 0 2px 5px lightgrey, 0 0 0 7px black, 3px 3px 9px 11px rgba(0,0,0,.5);
+		border-radius: 30px;
+		cursor:pointer;
+	}
+	div#phone:before {
+		content: '';
+		height: 80px;
+		width: 0;
+		left: -9px;
+		top: 151px;
+		position: absolute;
+		box-shadow: 0px 0px 0px 1px grey, 1px 1px 0px 2px black;
+	}
+	div#phone:after {
+		content: '';
+		height: 40px;
+		width: 0;
+		right: -8px;
+		top: 151px;
+		position: absolute;
+		box-shadow: 0px 0px 0px 1px grey, 1px 1px 0px 1px black;
+	}
+	div#phone_screen {
+		height: 100%;
+		padding:7px 7px 20px 7px;
+		box-sizing: border-box;
+		overflow:hidden;
+		border-radius: 30px;
+	}
+	div#phone_screen::before {
+		content: '';
+		opacity: .1;
+		width: 0;
+		height: 0;
+		position: absolute;
+		z-index: 9;
+		border-right: 8cm solid transparent;
+		border-top: 16cm solid white;
+		pointer-events: none;
+		border-radius: 30px;
+		margin: -7px 0 -22px -7px;
+	}
+	div#phone_screen:after {
+		background: black;
+		content: '';
+		width: 3cm;
+		height: 15px;
+		top: 0;
+		position: absolute;
+		right: calc(50% - 3cm/2);
+		z-index: 9;
+		border-radius: 0 0 28px 28px;
+	}
+	iframe#myIframe {
+		height: 100%;
+		width: 100%;
+		z-index:-1;
+		border-radius: 25px;
+		display:none;
+	}
+	/*iframe[src="about:blank"]{display:none}*/
 	img#coffee {bottom:100px;left:100px;height:5cm;position:absolute;opacity:.5;mix-blend-mode:multiply;}
 }

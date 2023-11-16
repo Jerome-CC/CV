@@ -6,9 +6,16 @@
   		<meta name="author" content="Jérôme Chappot de la Chanonie">
 		<link rel="stylesheet" href="cv_green_2023_2.css">
 		<link rel='stylesheet' id='font-awesome-official-css'  href='https://use.fontawesome.com/releases/v5.13.0/css/all.css' type='text/css' media='all' integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" /><!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"--><!--link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"-->
+		<script>
+		  function launchWebApp(iframe,event) {
+			iframe.src = 'https://jerome-cc.github.io/treender_web';
+			iframe.style.zIndex = 1;
+			iframe.style.display = 'block';
+		  }
+		</script>
 	</head>
 	<body>
-		<div id="desk" class="background0 no-print" onclick="changeBackgroundClass(this)"></div>
+		<div id="desk" class="background0 no-print" onclick="changeBackgroundClass(this,event)"></div>
 		<div id="cv">
 			<header>
 				<a id="photo" href="https://www.linkedin.com/in/jeromechappot/"><img id="me" src="images/me.png"/></a>
@@ -210,10 +217,14 @@
 		<a class="no-print" id="printer" href="javascript:if(window.print)window.print()"><img src="images/printer.svg"/></a>
 		<img  class="no-print" id="coffee" src="images/tache.svg"/></a>
 		<img  class="no-print" id="book" src="images/book.svg"/></a>
-		<img  class="no-print" id="phone" src="images/phone.svg"/></a>
+		<div  class="no-print" id="phone" onclick="launchWebApp(document.getElementById('myIframe'),event)"/>
+			<div id="phone_screen">
+				<iframe id="myIframe" frameborder="0" src="about:blank"/>
+			</div>
+		</div>
 		<script>
 		  let currentIndex = 0;
-		  function changeBackgroundClass(element) {
+		  function changeBackgroundClass(element,event) {
 			element.classList.remove(`background${currentIndex}`);
 			currentIndex = (currentIndex + 1) % 26;
 			element.classList.add(`background${currentIndex}`);
