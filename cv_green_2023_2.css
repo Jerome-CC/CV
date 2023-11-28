@@ -238,8 +238,8 @@ display:none}
 		height: 0;
 		position: absolute;
 		z-index: 9;
-		border-right: 8cm solid transparent;
-		border-top: 16cm solid white;
+		border-right: 8.5cm solid transparent;
+		border-top: 17.5cm solid white;
 		pointer-events: none;
 		border-radius: 30px;
 		margin: -7px 0 -22px -7px;
