@@ -196,9 +196,9 @@ display:none}
 	#phone {
 		position: absolute;
 		right: 3cm;
-		top: 12cm;
-		height: 17.5cm;
-		width: 8.5cm;
+		top: 13cm;
+		height: 16cm;
+		width: 8cm;
 		transform: rotate(-6deg);
 		/*box-sizing: border-box;*/
 		background-color: black;
@@ -238,8 +238,8 @@ display:none}
 		height: 0;
 		position: absolute;
 		z-index: 9;
-		border-right: 8.5cm solid transparent;
-		border-top: 17.5cm solid white;
+		border-right: 8cm solid transparent;
+		border-top: 16cm solid white;
 		pointer-events: none;
 		border-radius: 30px;
 		margin: -7px 0 -22px -7px;
