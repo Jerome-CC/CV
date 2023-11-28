@@ -12,6 +12,12 @@
 			iframe.style.zIndex = 1;
 			iframe.style.display = 'block';
 		  }
+		  let currentIndex = 0;
+		  function changeBackgroundClass(element,event) {
+			element.classList.remove(`background${currentIndex}`);
+			currentIndex = (currentIndex + 1) % 26;
+			element.classList.add(`background${currentIndex}`);
+		  }
 		</script>
 	</head>
 	<body>
@@ -30,7 +36,7 @@
 					<a href="http://beknown.com/jchappot"><img alt="monster" src="images/monster.png"/></a>
 				</div-->
 			</header>
-			<p id="intro">29 ans - Technicien technophile<span class="droite"><i class="fas fa-car"></i>Permis B</span></p>
+			<p id="intro">29 ans - Technicien bocage<span class="droite"><i class="fas fa-car"></i>Permis B</span></p>
 			<section id="experience">
 				<h1><i class="fas fa-briefcase"></i>Expériences professionnelles</h1>
 				<ul class="frise">
@@ -153,7 +159,7 @@
 				</div>
 				<div class="row">
 					<i class="fas fa-code"></i>
-					<span class="leaf"><span class="bubble">Informatique</span></span><span class="desc">Automatisation, SIG, data science, data viz, open data, IA, low-code...</span></span>
+					<span class="leaf"><span class="bubble">Informatique</span></span><span class="desc">Automatisation, SIG, développement web/mobile, data science, data viz, open data, machine learning, low-code...</span></span>
 				</div>
 				<div class="row">
 					<i class="fas fa-music"></i>
@@ -170,12 +176,12 @@
 					<span class="desc">Europe, Réunion, Tunisie, Israël, USA...</span></span>
 					<!--span class="desc">France, Europe, Tunisie, Israël, USA...</span-->
 				</div>
-				<div class="row">
+				<!--div class="row">
 					<i class="fas fa-chart-line"></i>
 					<span class="leaf"><span class="bubble">Divers</span></span>
 					<span class="desc">Finance, entrepreneuriat...</span></span>
 					<!--span class="desc">France, Europe, Tunisie, Israël, USA...</span-->
-				</div>
+				</div-->
 				<!--div class="row">
 					<i class="fas fa-beer"></i>
 					<span class="leaf"><span class="bubble">...</span></span>
@@ -222,13 +228,5 @@
 				<iframe id="myIframe" frameborder="0" src="about:blank"/>
 			</div>
 		</div>
-		<script>
-		  let currentIndex = 0;
-		  function changeBackgroundClass(element,event) {
-			element.classList.remove(`background${currentIndex}`);
-			currentIndex = (currentIndex + 1) % 26;
-			element.classList.add(`background${currentIndex}`);
-		  }
-		</script>
 	</body>
 </html>
