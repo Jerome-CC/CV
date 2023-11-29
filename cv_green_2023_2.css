@@ -7,7 +7,7 @@
 * {position:relative;z-index:9}
 html{overflow-y:scroll}
 body {margin:0;height:29.7cm;overflow:hidden}
-#desk{background-color:#202937;background-size:cover;width:100%;height:100%;display:block;position:absolute;transition-property:background-image;transition-delay:1s;transition-duration:4s}
+#desk{background-color:#202937;background-size:cover;width:100%;height:100%;display:block;position:absolute;transition-property:background-image;transition-delay:3s;transition-duration:4s}
 .background0{background-image:url(images/backgrounds/background36.webp);background-blend-mode:normal;opacity:.7}
 .background1{background-image:url(images/backgrounds/background12.webp);background-blend-mode:normal;opacity:.7}
 .background2{background-image:url(images/backgrounds/background5.webp);background-blend-mode:difference;opacity:.5}
