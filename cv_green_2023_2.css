@@ -176,7 +176,7 @@ display:none}
 @media screen and (min-width:1350px) {
 	.no-print{display:block}
 	a.no-print img{height:100%}
-	#printer {position:absolute;/*right:*/left:-27cm;top:-13cm;height:35cm;transform:rotate(-41deg);}
+	#printer {position:absolute;/*right:*/left:-27cm;top:-10cm;height:29cm;transform:rotate(-41deg);filter: drop-shadow(6px 6px 24px black);}
 	#book {
 		position:absolute;
 		right:-9cm;
