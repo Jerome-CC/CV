@@ -198,7 +198,7 @@ display:none}
     background: #ffa;
     overflow: hidden;
     border-radius: 0 0 0 30px/45px;
-    box-shadow: inset 0 -40px 40px rgba(0,0,0,0.2), inset 0 25px 10px rgba(0,0,0,0.2), 1px 10px 17px 0px rgba(0,0,0,.4);
+    box-shadow: inset 0 -40px 40px rgba(0,0,0,0.2), inset 0 25px 10px rgba(0,0,0,0.2), 1px 14px 17px 0px rgba(0,0,0,.4);
     color: #050053;
 }
   color:#130d6b;}
