@@ -9,32 +9,32 @@
 html{overflow-y:scroll}
 body {margin:0;height:29.7cm;overflow:hidden}
 #desk{background-color:#202937;background-size:cover;width:100%;height:100%;display:block;position:absolute;transition-property:background-image;transition-delay:3s;transition-duration:6s}
-.background0{background-image:url(images/backgrounds/background36.jpg);	background-blend-mode:normal;		opacity:.7}
-.background1{background-image:url(images/backgrounds/background12.jpg);	background-blend-mode:normal;		opacity:.7}
-.background2{background-image:url(images/backgrounds/background5.jpg);	background-blend-mode:difference;	opacity:.5}
-.background3{background-image:url(images/backgrounds/background39.jpg);	background-blend-mode:difference;	opacity:.5}
-.background4{background-image:url(images/backgrounds/background21.jpg);	background-blend-mode:normal;		opacity:.85}
-.background5{background-image:url(images/backgrounds/background24.jpg);	background-blend-mode:normal;		opacity:.5}
-.background6{background-image:url(images/backgrounds/background25.jpg);	background-blend-mode:difference;	opacity:0.5}
-.background7{background-image:url(images/backgrounds/background26.jpg);	background-blend-mode:difference;	opacity:0.5}
-.background8{background-image:url(images/backgrounds/background27.jpg);	background-blend-mode:difference;	opacity:0.5}
-.background9{background-image:url(images/backgrounds/background28.jpg);	background-blend-mode:normal;		opacity:1}
-.background10{background-image:url(images/backgrounds/background29.jpg);background-blend-mode:normal;		opacity:.8}
-.background11{background-image:url(images/backgrounds/background31.jpg);background-blend-mode:normal;		opacity:.7}
-.background12{background-image:url(images/backgrounds/background32.jpg);background-blend-mode:normal;		opacity:.7}
-.background13{background-image:url(images/backgrounds/background33.jpg);background-blend-mode:difference;	opacity:0.5}
-.background14 {background-image: url(images/backgrounds/background2.jpg);background-blend-mode: color-dodge;opacity: .9;}
-.background15 {background-image: url(images/backgrounds/background3.jpg);background-blend-mode: normal;opacity: 1;}
-.background16 {background-image: url(images/backgrounds/background4.jpg);background-blend-mode: exclusion;opacity: 1;}
-.background17 {background-image: url(images/backgrounds/background6.jpg);background-blend-mode: exclusion;opacity: 1;}
-.background18 {background-image: url(images/backgrounds/background10.jpg);background-blend-mode: screen;opacity: 1;}
-.background19 {background-image: url(images/backgrounds/background14.jpg);background-blend-mode: exclusion;opacity: .9;}
-.background20 {background-image: url(images/backgrounds/background19.jpg);background-blend-mode: normal;opacity: 1;}
-.background21 {background-image: url(images/backgrounds/background20.jpg);background-blend-mode: normal;opacity: .75;}
-.background22 {background-image: url(images/backgrounds/background35.jpg);background-blend-mode: normal;opacity: .6;}
-.background23 {background-image: url(images/backgrounds/background38.jpg);background-blend-mode: normal;opacity: 1;}
-.background24 {background-image: url(images/backgrounds/background40.jpg);background-blend-mode: normal;opacity: .7;}
-.background25 {background-image: url(images/backgrounds/background41.jpg);background-blend-mode: exclusion;opacity: .8;}
+.background0{background-image:url(images/backgrounds/background36.webp);	background-blend-mode:normal;		opacity:.7}
+.background1{background-image:url(images/backgrounds/background12.webp);	background-blend-mode:normal;		opacity:.7}
+.background2{background-image:url(images/backgrounds/background5.webp);	background-blend-mode:difference;	opacity:.5}
+.background3{background-image:url(images/backgrounds/background39.webp);	background-blend-mode:difference;	opacity:.5}
+.background4{background-image:url(images/backgrounds/background21.webp);	background-blend-mode:normal;		opacity:.85}
+.background5{background-image:url(images/backgrounds/background24.webp);	background-blend-mode:normal;		opacity:.5}
+.background6{background-image:url(images/backgrounds/background25.webp);	background-blend-mode:difference;	opacity:0.5}
+.background7{background-image:url(images/backgrounds/background26.webp);	background-blend-mode:difference;	opacity:0.5}
+.background8{background-image:url(images/backgrounds/background27.webp);	background-blend-mode:difference;	opacity:0.5}
+.background9{background-image:url(images/backgrounds/background28.webp);	background-blend-mode:normal;		opacity:1}
+.background10{background-image:url(images/backgrounds/background29.webp);background-blend-mode:normal;		opacity:.8}
+.background11{background-image:url(images/backgrounds/background31.webp);background-blend-mode:normal;		opacity:.7}
+.background12{background-image:url(images/backgrounds/background32.webp);background-blend-mode:normal;		opacity:.7}
+.background13{background-image:url(images/backgrounds/background33.webp);background-blend-mode:difference;	opacity:0.5}
+.background14 {background-image: url(images/backgrounds/background2.webp);background-blend-mode: color-dodge;opacity: .9;}
+.background15 {background-image: url(images/backgrounds/background3.webp);background-blend-mode: normal;opacity: 1;}
+.background16 {background-image: url(images/backgrounds/background4.webp);background-blend-mode: exclusion;opacity: 1;}
+.background17 {background-image: url(images/backgrounds/background6.webp);background-blend-mode: exclusion;opacity: 1;}
+.background18 {background-image: url(images/backgrounds/background10.webp);background-blend-mode: screen;opacity: 1;}
+.background19 {background-image: url(images/backgrounds/background14.webp);background-blend-mode: exclusion;opacity: .9;}
+.background20 {background-image: url(images/backgrounds/background19.webp);background-blend-mode: normal;opacity: 1;}
+.background21 {background-image: url(images/backgrounds/background20.webp);background-blend-mode: normal;opacity: .75;}
+.background22 {background-image: url(images/backgrounds/background35.webp);background-blend-mode: normal;opacity: .6;}
+.background23 {background-image: url(images/backgrounds/background38.webp);background-blend-mode: normal;opacity: 1;}
+.background24 {background-image: url(images/backgrounds/background40.webp);background-blend-mode: normal;opacity: .7;}
+.background25 {background-image: url(images/backgrounds/background41.webp);background-blend-mode: exclusion;opacity: .8;}
 #cv {overflow-y:hidden;position:relative;font-family:'Myriad Variable';font-size:13px;font-weight:400;font-stretch:77%;letter-spacing:-0.3px;word-spacing:1px;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;color:rgba(32,41,55,.9);background:/*hsl(33 20% 99%)*/hsl(33 20% 99%);width:calc(21cm - 5px);/*height:calc(29.7cm - 5px);*/margin:auto;padding:5px;box-shadow: 1px 1px 10px rgba(0,0,0,.4);}
 a{text-decoration:none;color:inherit}
 a:hover{/*opacity:.5;*/text-decoration:underline}
