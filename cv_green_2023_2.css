@@ -165,6 +165,7 @@ section#interests, section#skills, section#languages, section#education{width:5.
 display:none}
 
 @media screen and (min-width:1350px) {
+	body{background-color:white}
 	.no-print{display:block}
 	a.no-print img{height:100%}
 	#printer {position:absolute;/*right:*/left:-27cm;top:-10cm;height:29cm;transform:rotate(-41deg);filter:drop-shadow(6px 6px 24px black);}
