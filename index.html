@@ -305,10 +305,9 @@
 			src="images/printer.svg" /></a>
 	<img class="no-print" id="coffee" src="images/tache.svg" /></a>
 	<img class="no-print" id="book" src="images/book.svg" /></a>
-	<div class="no-print" id="phone" allow="geolocation"
-		onclick="launchWebApp(document.getElementById('myIframe'),event)">
+	<div class="no-print" id="phone" onclick="launchWebApp(document.getElementById('myIframe'),event)">
 		<div id="phone_screen">
-			<iframe id="myIframe" frameborder="0" src="about:blank"></iframe>
+			<iframe id="myIframe" frameborder="0" src="about:blank" allow="geolocation"></iframe>
 		</div>
 	</div>
 	<div class="no-print post-it"><img src='images/flutterio-icon.svg'/>Work in progress</div>
